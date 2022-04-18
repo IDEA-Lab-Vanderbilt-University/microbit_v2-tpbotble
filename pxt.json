@@ -1,0 +1,42 @@
+{
+    "name": "microbit_v2-TPBotBLE",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "Tinybit": "github:lzty634158/tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979",
+        "bluetooth": "*",
+        "pxt-TPBot": "github:elecfreaks/pxt-tpbot#v1.2.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.68",
+        "tag": "v3.0.68",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3fd936c8e507d2318fab615facb37d0f07179fb",
+        "target": "4.0.18",
+        "pxt": "6.0.39",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
